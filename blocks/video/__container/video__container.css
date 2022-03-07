@@ -1,0 +1,14 @@
+.video__container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width:720px) {
+    .video__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 8px;
+    }
+}

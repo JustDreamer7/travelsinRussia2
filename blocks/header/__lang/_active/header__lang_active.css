@@ -1,0 +1,9 @@
+.header__lang_active {
+    text-decoration: underline;
+}
+
+@media (max-width: 340px) {
+    .header__lang_active {
+        width: 30px;
+    }
+}

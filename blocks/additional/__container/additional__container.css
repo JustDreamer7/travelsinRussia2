@@ -1,0 +1,8 @@
+.additional__container {
+    width: 1184px;
+    font-family: 'Inter', Arial, sans-serif;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}

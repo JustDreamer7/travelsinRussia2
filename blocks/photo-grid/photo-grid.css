@@ -1,0 +1,62 @@
+@import url('../photo-grid/__item/photo-grid__item.css');
+
+.photo-grid {
+  max-width: 1184px;
+  margin: 62px auto 60px;
+  padding-top: 30px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width:1240px) {
+  .photo-grid {
+    max-width: 93%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-bottom: 69px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 970px) {
+  .photo-grid {
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin-bottom: 69px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 760px) {
+  .photo-grid {
+    max-width: 93%;
+  }
+}
+
+@media (max-width: 450px) {
+  .photo-grid {
+    margin-top: 41px;
+    max-width: 343px;
+    grid-template-columns: 1fr;
+    margin-bottom: 31px;
+  }
+}
+
+@media (max-width: 340px) {
+  .photo-grid {
+    grid-gap: 9px;
+    max-width: 288px;
+    margin-bottom: 20px;
+  }
+}

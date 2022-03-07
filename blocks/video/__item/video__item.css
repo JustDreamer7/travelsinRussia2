@@ -1,0 +1,52 @@
+@import url('../__item/_obs/video__item_obs.css');
+@import url('../__item/_kam/video__item_kam.css');
+
+.video__item {
+    width: 49%;
+    height: 323px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 1s linear;
+    text-decoration: none;
+    border-radius: 5px;
+    background-blend-mode: multiply;
+    object-fit: cover;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .video__item {
+        height: 288px;
+    }
+}
+
+@media (max-width: 940px) {
+    .video__item {
+        height: 200px;
+    }
+}
+
+@media (max-width: 720px) {
+    .video__item {
+        width: 70%;
+        height: 200px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 460px) {
+    .video__item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 340px) {
+    .video__item {
+        width: 100%;
+        height: 192px;
+    }
+}
+
+.video__item:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

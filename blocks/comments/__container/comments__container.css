@@ -1,0 +1,14 @@
+.comments__container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 940px) {
+    .comments__container {
+        display: block;
+
+    }
+}

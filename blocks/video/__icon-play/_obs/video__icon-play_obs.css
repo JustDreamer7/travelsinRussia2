@@ -1,0 +1,11 @@
+.video__icon-play_obs {
+    padding-bottom: 74px;
+}
+
+@media (max-width: 940px) {
+    .video__icon-play_obs {
+        padding-bottom: 9.5px;
+
+
+    }
+}

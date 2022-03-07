@@ -1,0 +1,7 @@
+.barentsburg__container {
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Inter', Arial, sans-serif;
+}

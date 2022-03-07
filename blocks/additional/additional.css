@@ -1,0 +1,21 @@
+@import url('../additional/__container/additional__container.css');
+@import url('../additional/__item/additional__item.css');
+@import url('../additional/__text/additional__text.css');
+@import url('../additional/__heading/additional__heading.css');
+@import url('../additional/_ar/additional__item_ar.css');
+@import url('../additional/_ch/additional__item_ch.css');
+@import url('../additional/_nl/additional__item_nl.css');
+@import url('../additional/_nvr/additional__item_nvr.css');
+@import url('../additional/__content-subtitle/additional__content-subtitle.css');
+@import url('../additional/__content-title/additional__content-title.css');
+@import url('../additional/__heading/_chnl/additional__heading_chnl.css');
+@import url('../additional/__heading/_nvrar/additional__heading_nvrar.css');
+@import url('../additional/__heading/_ar/additional__heading_ar.css');
+
+.additional {
+    width: 1184px;
+
+    margin-bottom: 122px;
+    margin: auto;
+    font-family: 'Inter', Arial, sans-serif;
+}

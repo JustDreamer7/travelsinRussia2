@@ -1,0 +1,43 @@
+@import url('../lead/__caption/lead__caption.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__title/lead__title.css');
+@import url('../lead/__path/lead__path.css');
+
+.lead {
+    max-width: 985px;
+
+    padding-top: 48px;
+    margin: auto;
+    margin-bottom: 70px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        margin-bottom: 76px;
+        padding-top: 58px;
+    }
+}
+
+@media (max-width: 940px) {
+    .lead {
+        max-width: 768px;
+        margin-bottom: 76px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .lead {
+        max-width: 375px;
+        margin-bottom: 53px;
+        padding-top: 48px;
+    }
+}

@@ -1,0 +1,45 @@
+@import url('../comments/__container/comments__container.css');
+@import url('../comments/__content-title/comments__content-title.css');
+@import url('../comments/__content-subtitle/comments__content-subtitle.css');
+
+.comments {
+    max-width: 1184px;
+
+    margin: auto;
+    margin-top: 101px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .comments {
+        max-width: 928px;
+
+    }
+}
+
+@media (max-width: 990px) {
+    .comments {
+        max-width: 660px;
+
+    }
+}
+
+@media (max-width: 700px) {
+    .comments {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .comments {
+        max-width: 343px;
+        margin-top: 61px;
+    }
+}
+
+@media (max-width: 360px) {
+    .comments {
+        max-width: 288px;
+        margin-top: 61px;
+    }
+}

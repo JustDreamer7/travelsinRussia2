@@ -1,0 +1,17 @@
+.photo-grid__item {
+  width: 100%;
+  object-fit: cover;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 375px) {
+  .photo-grid__item {
+    height: 232px;
+  }
+}
+
+@media (max-width: 340px) {
+  .photo-grid__item {
+    height: 192px;
+  }
+}

@@ -1,0 +1,9 @@
+.barentburg__podcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 282px;
+    padding-left: 1px;
+    font-family: 'Inter', Arial, sans-serif;
+}

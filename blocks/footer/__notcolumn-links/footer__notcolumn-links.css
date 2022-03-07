@@ -1,0 +1,23 @@
+.footer__notcolumn-links {
+    list-style-type: none;
+    display: flex;
+    width: 664px;
+    justify-content: space-between;
+    font-family: 'Inter', Arial, sans-serif;
+    padding: 0;
+}
+
+@media (max-width: 940px) {
+    .footer__notcolumn-links {
+        max-width: 465px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__notcolumn-links {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 14px;
+    }
+}

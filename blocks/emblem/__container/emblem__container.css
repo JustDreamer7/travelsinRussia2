@@ -1,0 +1,9 @@
+.emblem__container {
+    width: 1184px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+}

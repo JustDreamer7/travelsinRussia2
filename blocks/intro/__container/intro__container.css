@@ -1,0 +1,12 @@
+.intro__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    max-width: 383px;
+    list-style-type: none;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+}

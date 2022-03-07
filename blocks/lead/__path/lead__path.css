@@ -1,0 +1,27 @@
+.lead__path{
+    margin-left: 23px;
+    width: 95%;
+    height: 225.68px;
+    margin-top: 126.8px;
+}
+
+@media screen and (max-width: 1100px) {
+    .lead__path {
+        margin-left: 21px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .lead__path {
+        height: 171px;
+        margin-top: 96.8px;
+        margin-left: 2.2%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .lead__path {
+        height: 85.93px;
+        margin-top: 48.3px;
+    }
+}

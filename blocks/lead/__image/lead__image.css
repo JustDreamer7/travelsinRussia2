@@ -1,0 +1,22 @@
+.lead__image {
+    margin: 71px auto 6px;
+    width: 100%;
+    height: 554.13px;
+    object-fit: cover;
+    font-family: 'Inter', Arial, sans-serif;
+    background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
+    background-size: cover;
+}
+
+@media screen and (max-width: 940px) {
+    .lead__image {
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .lead__image {
+        height: 211px;
+        margin-top: 33px;
+    }
+}

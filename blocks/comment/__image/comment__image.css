@@ -1,0 +1,14 @@
+.comment__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 43.5px;
+    margin-bottom: 17px;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 940px) {
+    .comment__image {
+        order: 1;
+        margin-bottom: 2px;
+    }
+}

@@ -1,0 +1,27 @@
+.video__duration {
+    max-width: 55px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+@media (max-width:940px) {
+    .video__duration {
+        margin-left: 24px;
+    }
+}
+
+@media (max-width:340px) {
+    .video__duration {
+        margin-left: 16px;
+    }
+}
